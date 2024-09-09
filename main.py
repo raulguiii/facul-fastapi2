@@ -7,6 +7,7 @@ app = FastAPI()
 def health_check():
     return "works"
 
+
 app.include_router(router=router)
 
 
